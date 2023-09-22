@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  padding: 0.5rem 2rem;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navbar__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+b {
+  color: blueviolet;
+}
+
+.counter__container {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+
+  border: none;
+  margin: 0.2rem;
+  min-width: 6rem;
+  cursor: pointer;
+  transition: transform 0.05s linear;
+}
+
+.btn-primary {
+  background-color: teal;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: lightcoral;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
